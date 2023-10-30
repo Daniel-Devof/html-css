@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/*
+        em HTML é ID = em CSS é #
+        em HTML é class = em CSS é . 
+        
+        ID sobrepoe CLASS
+
+        1 configura o generico
+        
+ */
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #F23005
+
+}
+h2{
+    color: #e98670;
+
+
+}
+p{
+    color:#F2F2F2 ;
+}
+h1#principal{
+    text-align: center;
+    background-color: #F26430;
+    color: white;
+} 
+
+.basic
+{
+color: #7117EB;
+}
+.Intermediario
+{
+    color:#EB174E;
+
+}
+.Avançado
+{
+color:#B617EB;
+}
+.destaque{
+    background-color: rgb(231, 231, 174);
+}

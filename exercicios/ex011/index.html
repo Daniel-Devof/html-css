@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias html5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        
+        <img src="imagens/foto-g.png" alt="foto flexiva">
+     </picture>
+
+
+     <h1>Teste com minhas imagens</h1>
+     <p>Imagens aleatorias</p>
+     <picture>
+        <source media="(max-width:750px )" srcset="imgtest/img-300.jpg" type="image/jpg">
+        
+        <source media="(max-width:1050px)" srcset="imgtest/img-700.jpg" type="image/jpg">
+
+
+        <img src="imgtest/img-1000.jpg" alt="img flexiva">
+     </picture>
+     <h1>Reproduzindo Audio</h1>
+     <p>faz O L</p>
+     <audio preload="metadata" autoplay controls="">
+
+        <source src="midia/fazol.mp3.mp3" type="audio/mpeg">
+     </audio>
+     
+    
+   
+     <!--mp3.WAV. OGG-->
+</body>
+</html>
