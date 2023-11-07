@@ -16,34 +16,39 @@ body {
 
 .interface {
     max-width: 1280px;
-   margin: 0 auto;
+    margin: 0 auto;
 }
 
 .flex {
     display: flex;
 }
 
- button:hover, form .bnt-enviar input:hover {
-    box-shadow: 0px 0px 8px rgba(9, 242, 246, 0.411) ;
-    transform: scale(1.05); 
+button:hover,
+form .bnt-enviar input:hover {
+    box-shadow: 0px 0px 8px rgba(9, 242, 246, 0.411);
+    transform: scale(1.05);
 }
+
 .btn-contato button {
     padding: 10px 40px;
-    font-size: 18px ;
+    font-size: 18px;
     font-weight: 600px;
     background-color: rgb(9, 243, 246);
     border: 0px;
     border-radius: 30px;
     cursor: pointer;
-    margin: -20px; 
+    margin: -20px;
     transition: 0.2s;
 }
+
+
 
 h2.titulo {
     color: white;
     font-size: 35px;
     text-align: center;
 }
+
 h2.titulo span {
     color: aqua;
 }
@@ -52,10 +57,11 @@ h2.titulo span {
 
 header {
     padding: 10px 3%;
-    
+    margin-left: -300px;
+
 }
 
-header > .interface {
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,22 +78,22 @@ header a:hover {
     color: #fff;
     transform: scale(1.05);
     transition: .2s;
-    
+
 }
 
 header nav ul {
     list-style-type: none;
-    font-size: 20px;    
+    font-size: 20px;
 }
 
 header nav ul li {
     display: inline-block;
     padding: 0 40px;
-    margin: 20px;
+    margin: 30px;
 }
- 
 
- 
+
+
 
 
 
@@ -97,12 +103,13 @@ header nav ul li {
 
 section.top-do-site {
     padding: 30px 4%;
-} 
+
+}
 
 section.top-do-site .flex {
-    align-items: center ;
-justify-content: center;
-gap: 90px;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
 }
 
 .top-do-site h1 {
@@ -110,18 +117,20 @@ gap: 90px;
     font-size: 40px;
     line-height: 40px;
 }
+
 .top-do-site .txt-top-site h1 span {
     color: aqua;
 }
 
 .top-do-site .txt-top-site p {
     color: white;
-    margin: 40px 0 ;
+    margin: 40px 0;
 }
 
 .top-do-site .img-top-site img {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+
 
 }
 
@@ -130,6 +139,7 @@ gap: 90px;
         top: 0;
 
     }
+
     100% {
         top: 30px;
     }
@@ -141,29 +151,35 @@ section.especialidades {
     padding: 40px 4%;
 }
 
+section .img-sobre {
+    margin-top: -110px;
+}
+
 section.especialidades .flex {
     gap: 60px;
 }
+
 .especialidades .esp-box {
     color: white;
     padding: 50px;
-   transition: 1.2s;
+    transition: 1.2s;
     border-radius: 20px;
 }
 
 .especialidades .esp-box:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.267) ;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.267);
 }
 
 .especialidades .esp-box i {
     font-size: 70px;
     color: aqua;
 }
+
 .especialidades .esp-box h3 {
     font-size: 30px;
-    margin: 15px 0px ;
-   
+    margin: 15px 0px;
+
 }
 
 /* SOBRE */
@@ -174,7 +190,7 @@ section.sobre {
 }
 
 section.sobre .flex {
-    align-items: top ;
+    align-items: top;
     gap: 60px;
 }
 
@@ -195,20 +211,20 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre p {
-    margin: 20px 0;
-   text-align: justify;
+    margin: 30px 0;
+    text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button {
-    width: 60px ;
+.btn-social button {
+    width: 60px;
     height: 60px;
     border-radius: 50%;
     border: none;
     background-color: aqua;
-    font-size:  20px;
+    font-size: 20px;
     cursor: pointer;
     margin: 0 10px;
-    transition: .2s ;
+    transition: .2s;
 }
 
 /* PORTIFOLIO */
@@ -217,6 +233,7 @@ section.Portfolio {
     padding: 20px 4%;
     box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.123);
 }
+
 section.Portfolio .flex {
     justify-content: space-around;
     margin-top: 60px;
@@ -237,13 +254,13 @@ section.Portfolio .flex {
 
 .img-p:hover {
     background-position: 100% 100%;
-  
+
 }
 
 .overlay {
     position: absolute;
     top: 0;
-    left:  0;
+    left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.699);
@@ -278,7 +295,8 @@ form {
     margin-top: 40px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     background-color: rgb(43, 42, 42);
     border: 0;
@@ -293,11 +311,13 @@ form textarea {
     resize: none;
     max-height: 200px;
 }
+
 form .bnt-enviar {
     margin-top: 20px;
     text-align: center;
 
 }
+
 form .bnt-enviar input {
     width: 120px;
     background-color: aqua;
@@ -308,4 +328,132 @@ form .bnt-enviar input {
 
 }
 
+/* footer style */
 
+footer {
+    padding: 20px 4%;
+    margin-left: -300px;
+    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.123);
+}
+
+footer .flex {
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -300px;
+}
+
+.border {
+    border-top: 2px solid aqua;
+    margin-top: -30px;
+    width: 1600px;
+    height: 1600px;
+
+
+}
+
+footer .lane p i {
+    color: #fff;
+    font-size: 20px;
+
+}
+
+
+footer .lane p a {
+    color: #fff;
+    padding: 10px;
+
+}
+
+/* site responsivo */
+
+@media screen and (max-width: 1020px) {
+
+    /* calsses gerais */
+    .flex {
+        flex-direction: column;
+    }
+
+    .top-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    /* cabeçalho */
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+}
+
+/* top site */
+
+
+
+header {
+    margin: -50px 15%;
+    
+
+
+}
+
+section.top-do-site .flex {
+
+    gap: 40px;
+}
+
+section.top-do-site {
+    padding: -100px 4%;
+
+}
+
+.top-do-site h1 {
+    font-size: 30px;
+
+}
+
+.img-sobre img {
+    margin: 0px -22%;
+}
+
+/* ESTILO DO TOPO DO SITE */
+        .top-do-site .img-top-site img {
+          margin-top: -100px; 
+        }
+
+
+section.top-do-site {
+    padding: 40px 8%;
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 34px;
+    line-height: 35px;
+    text-align: center;
+}
+.btn-social {
+    text-align: center;
+}
+
+/* portifolio */
+
+section.Portfolio {
+    padding: 40px 8%;
+    
+}
+
+.img-p {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+}
+section.Portfolio .flex {
+    gap: 60px;
+}
+
+footer .flex {
+    flex-direction: column-reverse;
+}
+
+.border {
+   
+    margin-top: -40px;
+}
